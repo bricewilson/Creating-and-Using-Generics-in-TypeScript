@@ -22,6 +22,8 @@
   "editor.selectionHighlight": false,
   "editor.suggestOnTriggerCharacters": false,
 
+  "workbench.statusBar.visible": false,
+
   "problems.decorations.enabled": true,
 
   "window.zoomLevel": 0,
