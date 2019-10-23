@@ -16,11 +16,12 @@
 
   "editor.fontFamily": "Roboto Mono",
   "editor.fontSize": 16,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": true,
   "editor.parameterHints.enabled": false,
   "editor.wordBasedSuggestions": false,
   "editor.selectionHighlight": false,
   "editor.suggestOnTriggerCharacters": false,
+  "editor.showUnused": false,
 
   "workbench.statusBar.visible": false,
 
