@@ -3,6 +3,7 @@
 node_modules/
 dist/
 *.js
+.vscode/
 
 # compiled output
 /tmp
