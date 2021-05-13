@@ -1,7 +1,7 @@
 # Creating-and-Using-Generics-in-TypeScript
 
 This is the official repository for my Pluralsight course titled [*Creating and Using Generics in TypeScript*](https://app.pluralsight.com/library/courses/typescript-generics-creating-using/table-of-contents). 
-The *master* branch contains code as it 
+The *main* branch contains code as it 
 exists at the start of the course. There are separate branches named after the modules in the course that contain the code as it 
 exists at the end of that module.
 
