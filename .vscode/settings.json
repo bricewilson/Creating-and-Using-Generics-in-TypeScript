@@ -1,6 +1,7 @@
 {
   "git.ignoreLimitWarning": true,
   "git.decorations.enabled": false,
+  "git.countBadge": "off",
 
   "files.autoSave": "afterDelay",
 
@@ -11,24 +12,41 @@
       "**/.DS_Store": true,
       "**/.gitignore": true,
       "npm-debug.log": true,
-      "*.js": true
+      "*.js": true,
+      "*.md": true,
+      ".vscode": true
   },
 
   "editor.fontFamily": "Roboto Mono",
   "editor.fontSize": 18,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.snippetSuggestions": "top",
   "editor.parameterHints.enabled": false,
   "editor.wordBasedSuggestions": false,
   "editor.selectionHighlight": false,
   "editor.suggestOnTriggerCharacters": false,
-
-  "workbench.statusBar.visible": false,
-
+  "editor.cursorBlinking": "solid",
+  "editor.folding": false,
+  "editor.lightbulb.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "never",
+  "editor.smoothScrolling": true,
   "problems.decorations.enabled": true,
 
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 3,
   
   "terminal.integrated.fontSize": 18,
 
-  "editor.cursorBlinking": "solid"  
+  "workbench.colorTheme": "Default Light+",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.iconTheme": null,
+
+  "breadcrumbs.enabled": false
 }
