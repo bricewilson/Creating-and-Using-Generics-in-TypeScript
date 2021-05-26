@@ -1,7 +1,9 @@
-let junkDrawer: any[] = ['cool string', 42, true];
+function shortenArray<T>(data: Array<T>, amountToShorten: number): Array<T> {
+  return data.splice(amountToShorten, data.length);
+}
 
-let companies: Array<string> = ['Microsoft', 'Google', 'Amazon'];
+let stringArray: string[] = ['Visual Basic', 'C++', 'TypeScript', 'JavaScript'];
 
-let primeNums: Array<number> = [7, 11, 13];
+let fewerLanguages = shortenArray<string>(stringArray, 2);
 
-let lastValue = primeNums.pop();
+console.log(fewerLanguages);
