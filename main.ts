@@ -17,15 +17,22 @@ function getBigRooms<T extends MeetingResource>(rooms: Array<T>, minSize: number
 
 }
 
-let bigRooms = getBigRooms(buildingData, 20);
+let getLargeRooms: <T extends MeetingResource>(rooms: Array<T>, minSize: number) => Array<T>;
 
-console.log(bigRooms);
+getLargeRooms = getBigRooms;
+
+let largeRooms = getLargeRooms(conferenceRoomData, 30);
+
+console.log(largeRooms);
 
 
+function shortenArray<T>(data: Array<T>, amountToShorten: number): Array<T> {
+  return data.splice(amountToShorten, data.length);
+}
 
-// function shortenArray<T>(data: Array<T>, amountToShorten: number): Array<T> {
-//   return data.splice(amountToShorten, data.length);
-// }
+let shrinkArray: <U>(original: Array<U>, units: number) => Array<U>;
+
+shrinkArray = shortenArray;
 
 // let stringArray: string[] = ['Visual Basic', 'C++', 'TypeScript', 'JavaScript'];
 
